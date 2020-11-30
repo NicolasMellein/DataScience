@@ -10,7 +10,7 @@ pd.set_option('display.width', None)
 
 # Importing the dataset
 
-dataset = pd.read_csv('/Users/nicomellein/Desktop/Machine Learning A-Z (Codes and Datasets)/Part 4 - Clustering/Section 24 - K-Means Clustering/Python/Mall_Customers.csv')
+dataset = pd.read_csv('Mall_Customers.csv')
 
 X = dataset.iloc[:, [3,4]].values # die letzten 2 sind Merkmale um eine Muster in den anderen Daten zu finden
 #print(X)
